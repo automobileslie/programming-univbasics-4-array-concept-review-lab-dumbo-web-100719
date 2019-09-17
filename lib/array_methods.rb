@@ -23,5 +23,12 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  
+  min = array[0]
+  counter = 1
+  while counter < array.length do
+    if array[counter] < min
+      min = array[counter]
 end
+counter+=1
+end
+min
