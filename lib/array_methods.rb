@@ -11,8 +11,13 @@ end
 end
 
 def find_max_value(array)
-  array.sort!
-  array.last
+ max = array[0]
+ counter = 1
+ while counter < array.length do 
+   if array[counter] > max
+     max= array[counter]
+ 
+ end
 end
 
 def find_min_value(array)
